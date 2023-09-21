@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:45:50
- * @LastEditTime: 2023-09-21 12:38:14
+ * @LastEditTime: 2023-09-21 20:15:22
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_common_config.dart
@@ -505,25 +505,38 @@ class BaseCommonConfig extends BaseConfig {
   Color get brandPrimary =>
       _brandPrimary ?? BaseDefaultConfigUtils.defaultCommonConfig.brandPrimary;
   //
-  Color? get brandPrimaryTapColor => _brandPrimaryTap;
+  Color get brandPrimaryTap =>
+      _brandPrimaryTap ??
+      BaseDefaultConfigUtils.defaultCommonConfig.brandPrimaryTap;
   //
-  Color? get brandSuccessColor => _brandSuccess;
+  Color get brandSuccess =>
+      _brandSuccess ?? BaseDefaultConfigUtils.defaultCommonConfig.brandSuccess;
   //
-  Color? get brandWarningColor => _brandWarning;
+  Color get brandWarning =>
+      _brandWarning ?? BaseDefaultConfigUtils.defaultCommonConfig.brandWarning;
   //
-  Color? get brandErrorColor => _brandError;
+  Color get brandError =>
+      _brandError ?? BaseDefaultConfigUtils.defaultCommonConfig.brandError;
   //
-  Color? get brandImportantColor => _brandImportant;
+  Color get brandImportant =>
+      _brandImportant ??
+      BaseDefaultConfigUtils.defaultCommonConfig.brandImportant;
   //
-  Color? get brandImportantValueColor => _brandImportantValue;
+  Color get brandImportantValue =>
+      _brandImportantValue ??
+      BaseDefaultConfigUtils.defaultCommonConfig.brandImportantValue;
   //
-  Color? get brandAuxiliaryColor => _brandAuxiliary;
+  Color get brandAuxiliary =>
+      _brandAuxiliary ??
+      BaseDefaultConfigUtils.defaultCommonConfig.brandAuxiliary;
   //
   Color get colorTextBase =>
       _colorTextBase ??
       BaseDefaultConfigUtils.defaultCommonConfig.colorTextBase;
   //
-  Color? get colorTextImportantColor => _colorTextImportant;
+  Color get colorTextImportant =>
+      _colorTextImportant ??
+      BaseDefaultConfigUtils.defaultCommonConfig.colorTextImportant;
   //
   Color get colorTextBaseInverse =>
       _colorTextBaseInverse ??
@@ -533,81 +546,129 @@ class BaseCommonConfig extends BaseConfig {
       _colorTextSecondary ??
       BaseDefaultConfigUtils.defaultCommonConfig.colorTextSecondary;
   //
-  Color? get colorTextDisabledColor => _colorTextDisabled;
+  Color get colorTextDisabled =>
+      _colorTextDisabled ??
+      BaseDefaultConfigUtils.defaultCommonConfig.colorTextDisabled;
   //
-  Color? get colorTextHintColor => _colorTextHint;
+  Color get colorTextHint =>
+      _colorTextHint ??
+      BaseDefaultConfigUtils.defaultCommonConfig.colorTextHint;
   //
-  Color? get colorLinkColor => _colorLink;
+  Color get colorLink =>
+      _colorLink ?? BaseDefaultConfigUtils.defaultCommonConfig.colorLink;
   //
-  Color? get fillBaseColor => _fillBase;
+  Color get fillBase =>
+      _fillBase ?? BaseDefaultConfigUtils.defaultCommonConfig.fillBase;
   //
-  Color? get fillBodyColor => _fillBody;
+  Color get fillBody =>
+      _fillBody ?? BaseDefaultConfigUtils.defaultCommonConfig.fillBody;
   //
-  Color? get fillMaskColor => _fillMask;
+  Color get fillMask =>
+      _fillMask ?? BaseDefaultConfigUtils.defaultCommonConfig.fillMask;
   //
   Color get borderColorBase =>
       _borderColorBase ??
       BaseDefaultConfigUtils.defaultCommonConfig.borderColorBase;
   //
-  Color? get dividerColorBaseColor => _dividerColorBase;
+  Color get dividerColorBase =>
+      _dividerColorBase ??
+      BaseDefaultConfigUtils.defaultCommonConfig.dividerColorBase;
   //
-  double? get fontSizeBebasValue => _fontSizeBebas;
+  double get fontSizeBebas =>
+      _fontSizeBebas ??
+      BaseDefaultConfigUtils.defaultCommonConfig.fontSizeBebas;
   //
-  double? get fontSizeHeadLgValue => _fontSizeHeadLg;
+  double get fontSizeHeadLg =>
+      _fontSizeHeadLg ??
+      BaseDefaultConfigUtils.defaultCommonConfig.fontSizeHeadLg;
   //
-  double? get fontSizeHeadValue => _fontSizeHead;
+  double get fontSizeHead =>
+      _fontSizeHead ?? BaseDefaultConfigUtils.defaultCommonConfig.fontSizeHead;
   //
-  double? get fontSizeSubHeadValue => _fontSizeSubHead;
+  double get fontSizeSubHead =>
+      _fontSizeSubHead ??
+      BaseDefaultConfigUtils.defaultCommonConfig.fontSizeSubHead;
   //
-  double? get fontSizeBaseValue => _fontSizeBase;
+  double get fontSizeBase =>
+      _fontSizeBase ?? BaseDefaultConfigUtils.defaultCommonConfig.fontSizeBase;
   //
-  double? get fontSizeCaptionValue => _fontSizeCaption;
+  double get fontSizeCaption =>
+      _fontSizeCaption ??
+      BaseDefaultConfigUtils.defaultCommonConfig.fontSizeCaption;
   //
-  double? get fontSizeCaptionSmValue => _fontSizeCaptionSm;
+  double get fontSizeCaptionSm =>
+      _fontSizeCaptionSm ??
+      BaseDefaultConfigUtils.defaultCommonConfig.fontSizeCaptionSm;
   //
-  double? get radiusXsValue => _radiusXs;
+  double get radiusXs =>
+      _radiusXs ?? BaseDefaultConfigUtils.defaultCommonConfig.radiusXs;
   //
-  double? get radiusSmValue => _radiusSm;
+  double get radiusSm =>
+      _radiusSm ?? BaseDefaultConfigUtils.defaultCommonConfig.radiusSm;
   //
-  double? get radiusMdValue => _radiusMd;
+  double get radiusMd =>
+      _radiusMd ?? BaseDefaultConfigUtils.defaultCommonConfig.radiusMd;
   //
-  double? get radiusLgValue => _radiusLg;
+  double get radiusLg =>
+      _radiusLg ?? BaseDefaultConfigUtils.defaultCommonConfig.radiusLg;
   //
-  double? get borderWidthSmValue => _borderWidthSm;
+  double get borderWidthSm =>
+      _borderWidthSm ??
+      BaseDefaultConfigUtils.defaultCommonConfig.borderWidthSm;
   //
-  double? get borderWidthMdValue => _borderWidthMd;
+  double get borderWidthMd =>
+      _borderWidthMd ??
+      BaseDefaultConfigUtils.defaultCommonConfig.borderWidthMd;
   //
-  double? get borderWidthLgValue => _borderWidthLg;
+  double get borderWidthLg =>
+      _borderWidthLg ??
+      BaseDefaultConfigUtils.defaultCommonConfig.borderWidthLg;
   //
-  double? get hSpacingXsValue => _hSpacingXs;
+  double get hSpacingXs =>
+      _hSpacingXs ?? BaseDefaultConfigUtils.defaultCommonConfig.hSpacingXs;
   //
-  double? get hSpacingSmValue => _hSpacingSm;
+  double get hSpacingSm =>
+      _hSpacingSm ?? BaseDefaultConfigUtils.defaultCommonConfig.hSpacingSm;
   //
-  double? get hSpacingMdValue => _hSpacingMd;
+  double get hSpacingMd =>
+      _hSpacingMd ?? BaseDefaultConfigUtils.defaultCommonConfig.hSpacingMd;
   //
-  double? get hSpacingLgValue => _hSpacingLg;
+  double get hSpacingLg =>
+      _hSpacingLg ?? BaseDefaultConfigUtils.defaultCommonConfig.hSpacingLg;
   //
-  double? get hSpacingXlValue => _hSpacingXl;
+  double get hSpacingXl =>
+      _hSpacingXl ?? BaseDefaultConfigUtils.defaultCommonConfig.hSpacingXl;
   //
-  double? get hSpacingXxlValue => _hSpacingXxl;
+  double get hSpacingXxl =>
+      _hSpacingXxl ?? BaseDefaultConfigUtils.defaultCommonConfig.hSpacingXxl;
   //
-  double? get vSpacingXsValue => _vSpacingXs;
+  double get vSpacingXs =>
+      _vSpacingXs ?? BaseDefaultConfigUtils.defaultCommonConfig.vSpacingXs;
   //
-  double? get vSpacingSmValue => _vSpacingSm;
+  double get vSpacingSm =>
+      _vSpacingSm ?? BaseDefaultConfigUtils.defaultCommonConfig.vSpacingSm;
   //
-  double? get vSpacingMdValue => _vSpacingMd;
+  double get vSpacingMd =>
+      _vSpacingMd ?? BaseDefaultConfigUtils.defaultCommonConfig.vSpacingMd;
   //
-  double? get vSpacingLgValue => _vSpacingLg;
+  double get vSpacingLg =>
+      _vSpacingLg ?? BaseDefaultConfigUtils.defaultCommonConfig.vSpacingLg;
   //
-  double? get vSpacingXlValue => _vSpacingXl;
+  double get vSpacingXl =>
+      _vSpacingXl ?? BaseDefaultConfigUtils.defaultCommonConfig.vSpacingXl;
   //
-  double? get vSpacingXxlValue => _vSpacingXxl;
+  double get vSpacingXxl =>
+      _vSpacingXxl ?? BaseDefaultConfigUtils.defaultCommonConfig.vSpacingXxl;
   //
-  double? get iconSizeXxsValue => _iconSizeXxs;
+  double get iconSizeXxs =>
+      _iconSizeXxs ?? BaseDefaultConfigUtils.defaultCommonConfig.iconSizeXxs;
   //
-  double? get iconSizeSmValue => _iconSizeSm;
+  double get iconSizeSm =>
+      _iconSizeSm ?? BaseDefaultConfigUtils.defaultCommonConfig.iconSizeSm;
   //
-  double? get iconSizeMdValue => _iconSizeMd;
+  double get iconSizeMd =>
+      _iconSizeMd ?? BaseDefaultConfigUtils.defaultCommonConfig.iconSizeMd;
   //
-  double? get iconSizeLgValue => _iconSizeLg;
+  double get iconSizeLg =>
+      _iconSizeLg ?? BaseDefaultConfigUtils.defaultCommonConfig.iconSizeLg;
 }
