@@ -2,7 +2,7 @@ name: phoenix
 description: phoenix Flutter 企业级基础组件
 version: 1.0.0
 homepage: 'https://github.com/vsguji/phoenix.git'
-publish_to: 'none'
+
 
 environment:
   sdk: '>=3.1.2 <4.0.0'
