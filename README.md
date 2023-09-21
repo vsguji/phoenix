@@ -1,4 +1,12 @@
 <!--
+ * @Author: lipeng 1162423147@qq.com
+ * @Date: 2023-09-21 13:04:00
+ * @LastEditors: lipeng 1162423147@qq.com
+ * @LastEditTime: 2023-09-21 13:08:08
+ * @FilePath: /phoenix/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!--
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
 
@@ -10,6 +18,14 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
+
+# phoenix
+
+```dart
+ BaseTotalConfig totalConfig = BaseTotalConfig();
+ // 
+ BaseInit.register(totalConfig: totalConfig); 
+```
 
 TODO: Put a short description of the package here that helps potential users
 know whether this package might be useful for them.
