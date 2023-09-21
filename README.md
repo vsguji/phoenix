@@ -2,7 +2,7 @@
  * @Author: lipeng 1162423147@qq.com
  * @Date: 2023-09-21 13:04:00
  * @LastEditors: lipeng 1162423147@qq.com
- * @LastEditTime: 2023-09-21 13:10:51
+ * @LastEditTime: 2023-09-21 13:11:54
  * @FilePath: /phoenix/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -39,13 +39,14 @@ phoenix 将做为企业级基础组件,提供项目支持。
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+ BaseTotalConfig totalConfig = BaseTotalConfig();
+ // 
+ BaseInit.register(totalConfig: totalConfig); 
+```
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+phoenix 将做为企业级基础组件,提供项目支持。
 
 ```dart
 const like = 'sample';
@@ -53,6 +54,4 @@ const like = 'sample';
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+phoenix 将做为企业级基础组件,提供项目支持。
