@@ -2,7 +2,7 @@
  * @Author: lipeng 1162423147@qq.com
  * @Date: 2023-09-21 13:04:00
  * @LastEditors: lipeng 1162423147@qq.com
- * @LastEditTime: 2023-09-21 13:08:08
+ * @LastEditTime: 2023-09-21 13:09:23
  * @FilePath: /phoenix/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -26,9 +26,7 @@ and the Flutter guide for
  // 
  BaseInit.register(totalConfig: totalConfig); 
 ```
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+phoenix 将做为企业级基础组件,提供项目支持。
 
 ## Features
 
