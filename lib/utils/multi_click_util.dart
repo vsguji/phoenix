@@ -1,5 +1,5 @@
-class BrnMultiClickUtils {
-  const BrnMultiClickUtils._();
+class MultiClickUtils {
+  const MultiClickUtils._();
 
   static DateTime? _lastClickTime;
 

@@ -2,17 +2,17 @@
  * @Author: lipeng 1162423147@qq.com
  * @Date: 2023-09-21 13:04:00
  * @LastEditors: lipeng 1162423147@qq.com
- * @LastEditTime: 2023-09-21 20:02:16
+ * @LastEditTime: 2023-09-22 18:00:25
  * @FilePath: /phoenix/lib/phoenix.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 library phoenix;
 
 /// utils
-export 'utils/brn_event_bus.dart';
-export 'utils/brn_multi_click_util.dart';
-export 'utils/brn_text_util.dart';
-export 'utils/brn_tools.dart';
+export 'utils/event_bus.dart';
+export 'utils/multi_click_util.dart';
+export 'utils/phoenix_text_util.dart';
+export 'utils/phoenix_tools.dart';
 
 /// theme
 // base

@@ -4,14 +4,12 @@ import '../theme/configs/base_common_config.dart';
 import '../theme/constant/base_string_constant.dart';
 import '../theme/theme_configurator.dart';
 
-class BrunoTools {
-  const BrunoTools._();
+class PhoenixTools {
+  const PhoenixTools._();
 
   /// 将 icon 根据主题色变色后返回
-  static Image getAssetImageWithBandColor(
-    String assetFilePath, {
-    String configId = GLOBAL_CONFIG_ID,
-  }) {
+  static Image getAssetImageWithBandColor(String assetFilePath,
+      {String configId = GLOBAL_CONFIG_ID, String? package}) {
     final BaseCommonConfig commonConfig =
         BaseThemeConfig.instance.getConfig(configId: configId).commonConfig;
     if (!assetFilePath.startsWith('assets')) {
@@ -21,14 +19,15 @@ class BrunoTools {
   }
 
   /// 将 icon 根据传入颜色变后返回
-  static Image getAssetImageWithColor(String assetFilePath, Color? color) {
+  static Image getAssetImageWithColor(String assetFilePath, Color? color,
+      {String? package}) {
     if (!assetFilePath.startsWith('assets')) {
       assetFilePath = 'assets/$assetFilePath';
     }
     return Image.asset(
       assetFilePath,
       color: color,
-      package: BaseStrings.flutterPackageName,
+      package: package ?? BaseStrings.flutterPackageName,
       scale: 3.0,
     );
   }
@@ -36,45 +35,38 @@ class BrunoTools {
   /// [assetFilePath] assets 资源文件路径
   /// [package] 访问某个 package 里的资源，这里默认为 'bruno'
   /// [scale] 与所用的 png 资源是 icon_2x.png (scale=2.0)，icon_3x.png(scale=3.0)
-  static Image getAssetImage(
-    String assetFilePath, {
-    BoxFit? fit,
-    bool gaplessPlayback = false,
-  }) {
+  static Image getAssetImage(String assetFilePath,
+      {BoxFit? fit, bool gaplessPlayback = false, String? package}) {
     if (!assetFilePath.startsWith('assets')) {
       assetFilePath = 'assets/$assetFilePath';
     }
     return Image.asset(
       assetFilePath,
-      package: BaseStrings.flutterPackageName,
+      package: package ?? BaseStrings.flutterPackageName,
       fit: fit,
       scale: 3.0,
       gaplessPlayback: gaplessPlayback,
     );
   }
 
-  static Image getAssetScaleImage(String assetFilePath) {
+  static Image getAssetScaleImage(String assetFilePath, {String? package}) {
     if (!assetFilePath.startsWith('assets')) {
       assetFilePath = 'assets/$assetFilePath';
     }
     return Image.asset(
       assetFilePath,
-      package: BaseStrings.flutterPackageName,
+      package: package ?? BaseStrings.flutterPackageName,
     );
   }
 
-  static Image getAssetSizeImage(
-    String assetFilePath,
-    double w,
-    double h, {
-    Color? color,
-  }) {
+  static Image getAssetSizeImage(String assetFilePath, double w, double h,
+      {Color? color, String? package}) {
     if (!assetFilePath.startsWith('assets')) {
       assetFilePath = 'assets/$assetFilePath';
     }
     return Image.asset(
       assetFilePath,
-      package: BaseStrings.flutterPackageName,
+      package: package ?? BaseStrings.flutterPackageName,
 //      scale: 3.0,
       width: w,
       height: h,
@@ -92,14 +84,15 @@ class BrunoTools {
 
   /// 获取本地 [AssetImage]
   /// [assetFilePath] assets资源文件路径
-  static ImageProvider getAssetImageProvider(String assetFilePath) {
+  static ImageProvider getAssetImageProvider(String assetFilePath,
+      {String? package}) {
     if (!assetFilePath.startsWith('assets')) {
       assetFilePath = 'assets/$assetFilePath';
     }
 
     final AssetImage image = AssetImage(
       assetFilePath,
-      package: BaseStrings.flutterPackageName,
+      package: package ?? BaseStrings.flutterPackageName,
     );
     return image;
   }
