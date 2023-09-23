@@ -1,18 +1,29 @@
+/*
+ * @Author: lipeng 1162423147@qq.com
+ * @Date: 2023-09-13 20:09:03
+ * @LastEditors: lipeng 1162423147@qq.com
+ * @LastEditTime: 2023-09-23 18:07:54
+ * @FilePath: /phoenix/lib/utils/css/core_funtion.dart
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:xml/xml_events.dart' as xml;
 
+import '../../theme/theme_configurator.dart';
+import 'util.dart';
+
 /// 超链接的点击回调
-typedef BrnHyperLinkCallback = void Function(String text, String? url);
+typedef HyperLinkCallback = void Function(String text, String? url);
 
 /// 用于将 HTML 标签转为 style
-class BrnConvert {
+class Convert {
   /// [cssContent] 带有html 标签文本
   /// [linkCallBack] 超链接的点击回调
   /// [defaultStyle] 外部传入的默认文本样式
-  BrnConvert(
+  Convert(
     String cssContent, {
-    BrnHyperLinkCallback? linkCallBack,
+    HyperLinkCallback? linkCallBack,
     TextStyle? defaultStyle,
   }) {
     _eventList = xml.parseEvents(cssContent);
@@ -21,7 +32,7 @@ class BrnConvert {
   }
 
   /// 超链接的点击回调
-  BrnHyperLinkCallback? _linkCallBack;
+  HyperLinkCallback? _linkCallBack;
 
   /// 外部传入的默认文本样式
   TextStyle? _defaultStyle;
@@ -43,7 +54,7 @@ class BrnConvert {
           fontSize: 14,
           decoration: TextDecoration.none,
           fontWeight: FontWeight.normal,
-          color: BrnThemeConfigurator.instance
+          color: BaseThemeConfig.instance
               .getConfig()
               .commonConfig
               .colorTextImportant,
@@ -60,12 +71,12 @@ class BrnConvert {
               switch (attr.name) {
                 case 'color':
                   textStyle = textStyle.apply(
-                    color: BrnConvertUtil.generateColorByString(attr.value),
+                    color: ConvertUtil.generateColorByString(attr.value),
                   );
                   break;
                 case 'weight':
                   FontWeight fontWeight =
-                      BrnConvertUtil.generateFontWidgetByString(attr.value);
+                      ConvertUtil.generateFontWidgetByString(attr.value);
                   textStyle = textStyle.apply(
                     fontWeightDelta: fontWeight.index - FontWeight.normal.index,
                   );
@@ -73,7 +84,7 @@ class BrnConvert {
                 case 'size':
                   textStyle = textStyle.apply(
                     fontSizeDelta:
-                        BrnConvertUtil.generateFontSize(attr.value) - 13,
+                        ConvertUtil.generateFontSize(attr.value) - 13,
                   );
                   break;
               }
@@ -92,7 +103,7 @@ class BrnConvert {
               switch (attr.name) {
                 case 'href':
                   textStyle = textStyle.apply(
-                    color: BrnThemeConfigurator.instance
+                    color: BaseThemeConfig.instance
                         .getConfig()
                         .commonConfig
                         .brandPrimary,
