@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 09:46:09
+ * @LastEditTime: 2023-09-29 09:54:58
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -68,7 +68,7 @@ class BaseAsset {
 
   static const String iconUpArrow = 'icons/icon_up_arrow.png';
   static const String iconDownArrow = 'icons/icon_down_arrow.png';
-  static const String iconTrashBin = 'icons/icon_trash.png';
+  // static const String iconTrashBin = 'icons/icon_trash.png';
   static const String iconStarUnSelect = 'icons/icon_star_unselect.png';
   static const String iconStarSelect = 'icons/icon_star_select.png';
   static const String iconAddFormItem = 'icons/icon_add_form_item.png';
