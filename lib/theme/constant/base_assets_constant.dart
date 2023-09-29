@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 10:04:47
+ * @LastEditTime: 2023-09-29 10:11:04
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -61,10 +61,10 @@ class BaseAsset {
 
   static const String iconPopupClose = 'icons/icon_popup_close.png';
   // static const String iconClose = 'icons/icon_close.png';
-  static const String iconCalendarPreMonth =
-      'icons/icon_calendar_pre_month.png';
-  static const String iconCalendarNextMonth =
-      'icons/icon_calendar_next_month.png';
+  //static const String iconCalendarPreMonth =
+  //   'icons/icon_calendar_pre_month.png';
+  //static const String iconCalendarNextMonth =
+  //  'icons/icon_calendar_next_month.png';
 
   static const String iconUpArrow = 'icons/icon_up_arrow.png';
   static const String iconDownArrow = 'icons/icon_down_arrow.png';
