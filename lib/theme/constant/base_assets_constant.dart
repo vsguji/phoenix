@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 10:57:07
+ * @LastEditTime: 2023-09-29 20:43:58
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -105,8 +105,8 @@ class BaseAsset {
       'icons/icon_operation_line_left.png';
   static const String iconResultSuccess = 'icons/icon_result_success.png';
   static const String iconResultError = 'icons/icon_result_error.png';
-  static const String iconStar = 'icons/icon_star.png';
-  static const String iconStarHalf = 'icons/icon_star_half.png';
+  // static const String iconStar = 'icons/icon_star.png';
+  // static const String iconStarHalf = 'icons/icon_star_half.png';
   static const String iconQrCodeBg = 'assets/images/icon_qrcode_bg.png';
   static const String iconsQrCodeFailed =
       '/assets/images/icon_qrcode_failed.png';
@@ -135,17 +135,17 @@ class BaseAsset {
       'packages/bruno/assets/icons/img_avatar_new.png';
 
   /// radio组件，用于单选和多选
-  static const String iconRadioMultiSelected =
-      'icons/radio/multiple_selected.png';
-  static const String iconRadioUnSelected = 'icons/radio/unselected.png';
-  static const String iconRadioDisableMultiSelected =
-      'icons/radio/disable_multi_selected.png';
-  static const String iconRadioDisableUnselected =
-      'icons/radio/disable_unselected.png';
-  static const String iconRadioSingleSelected =
-      'icons/radio/single_selected.png';
-  static const String iconRadioDisableSingleSelected =
-      'icons/radio/disable_single_selected.png';
+  // static const String iconRadioMultiSelected =
+  //     'icons/radio/multiple_selected.png';
+  // static const String iconRadioUnSelected = 'icons/radio/unselected.png';
+  // static const String iconRadioDisableMultiSelected =
+  //     'icons/radio/disable_multi_selected.png';
+  // static const String iconRadioDisableUnselected =
+  //     'icons/radio/disable_unselected.png';
+  // static const String iconRadioSingleSelected =
+  //     'icons/radio/single_selected.png';
+  // static const String iconRadioDisableSingleSelected =
+  //     'icons/radio/disable_single_selected.png';
 
   // /// 评价组件--表情
   // static const String iconAppraiseBadUnselected =
