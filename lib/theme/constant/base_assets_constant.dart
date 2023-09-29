@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 10:51:58
+ * @LastEditTime: 2023-09-29 10:57:07
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -10,8 +10,8 @@ class BaseAsset {
   const BaseAsset._();
 
   static const String contentFailed = "images/content_failed.png";
-  static const String noData = "images/no_data.png";
-  static const String networkError = "images/network_error.png";
+  // static const String noData = "images/no_data.png";
+  // static const String networkError = "images/network_error.png";
 
   static const String stepTitle = 'images/img_step_title.png';
 
