@@ -2,7 +2,7 @@
  * @Author: lipeng 1162423147@qq.com
  * @Date: 2023-09-21 12:57:38
  * @LastEditors: lipeng 1162423147@qq.com
- * @LastEditTime: 2023-09-24 21:39:52
+ * @LastEditTime: 2023-09-29 09:46:37
  * @FilePath: /phoenix/CHANGELOG.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -39,6 +39,10 @@
 ## 1.0.7
 
 * [新增] utils\rich_Text
+
+## 1.0.8 
+
+* [修改] 修改 resouce 路径
 
 ## 致谢
 

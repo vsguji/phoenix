@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-08-23 09:54:20
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-09-29 09:46:09
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
  */
@@ -47,8 +47,8 @@ class BaseAsset {
       "icons/icon_unselected_triangle.png";
   static const String iconRequireRed = 'icons/icon_require_red.png';
   static const String iconRightArrow = 'icons/icon_right_arrow.png';
-  static const String iconBackWhite = 'assets/icons/icon_back_white.png';
-  static const String iconBackBlack = 'assets/icons/icon_back_black.png';
+  // static const String iconBackWhite = 'assets/icons/icon_back_white.png';
+  // static const String iconBackBlack = 'assets/icons/icon_back_black.png';
   static const String iconStep2 = 'icons/icon_step_2.png';
   static const String iconStep3 = 'icons/icon_step_3.png';
   static const String iconStep4 = 'icons/icon_step_4.png';
@@ -60,7 +60,7 @@ class BaseAsset {
   static const String iconSearch = 'icons/ic_search.png';
 
   static const String iconPopupClose = 'icons/icon_popup_close.png';
-  static const String iconClose = 'icons/icon_close.png';
+  // static const String iconClose = 'icons/icon_close.png';
   static const String iconCalendarPreMonth =
       'icons/icon_calendar_pre_month.png';
   static const String iconCalendarNextMonth =
