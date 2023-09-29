@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 10:20:18
+ * @LastEditTime: 2023-09-29 10:51:58
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -18,13 +18,13 @@ class BaseAsset {
   static const String refreshArrowUp = "images/refresh_arrow_up.png";
   static const String refreshArrowDown = "images/refresh_arrow_down.png";
   static const String iconSelectionReset = "images/icon_selection_reset.png";
-  static const String iconSingleSelected = "images/icon_single_selected.png";
-  static const String iconMultiSelected = "images/icon_multi_selected.png";
-  static const String iconUnSelect = "images/icon_unselect.png";
+  // static const String iconSingleSelected = "images/icon_single_selected.png";
+  // static const String iconMultiSelected = "images/icon_multi_selected.png";
+  // static const String iconUnSelect = "images/icon_unselect.png";
   static const String iconMore = "images/icon_more.png";
-  static const String iconAlert = "icons/icon_alert.png";
-  static const String iconWarning = "icons/icon_warning.png";
-  static const String iconSuccess = "icons/icon_success.png";
+  // static const String iconAlert = "icons/icon_alert.png";
+  // static const String iconWarning = "icons/icon_warning.png";
+  // static const String iconSuccess = "icons/icon_success.png";
 
   static const String iconStarSize = "images/icon_star_size.png";
   static const String iconStarSizeSelected =
@@ -79,7 +79,7 @@ class BaseAsset {
 
   // static const String iconPairInfoQuestion =
   // 'icons/icon_pait_info_question.png';
-  static const String iconPickerClose = 'images/icon_guanbi.png';
+  // static const String iconPickerClose = 'images/icon_guanbi.png';
 
   static const String iconNotice = 'icons/icon_notice.png';
   static const String iconNoticeArrowBlue = 'icons/icon_notice_arrow_blue.png';
