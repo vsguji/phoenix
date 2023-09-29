@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 21:09:39
+ * @LastEditTime: 2023-09-29 21:35:17
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -56,8 +56,8 @@ class BaseAsset {
   // static const String iconStepDoing = 'icons/icon_step_doing.png';
   // static const String iconStepCompleted = 'icons/icon_step_completed.png';
 
-  static const String iconDeleteText = 'icons/ic_delete_grey.png';
-  static const String iconSearch = 'icons/ic_search.png';
+  // static const String iconDeleteText = 'icons/ic_delete_grey.png';
+  // static const String iconSearch = 'icons/ic_search.png';
 
   static const String iconPopupClose = 'icons/icon_popup_close.png';
   // static const String iconClose = 'icons/icon_close.png';
@@ -74,30 +74,30 @@ class BaseAsset {
   static const String iconAddFormItem = 'icons/icon_add_form_item.png';
   static const String iconRemoveFormItem = 'icons/icon_remove_form_item.png';
 
-  static const String iconTriangleDown = 'icons/icon_triangle_down.png';
-  static const String iconTriangleUp = 'icons/icon_triangle_up.png';
+  // static const String iconTriangleDown = 'icons/icon_triangle_down.png';
+  // static const String iconTriangleUp = 'icons/icon_triangle_up.png';
 
   // static const String iconPairInfoQuestion =
   // 'icons/icon_pait_info_question.png';
   // static const String iconPickerClose = 'images/icon_guanbi.png';
 
-  static const String iconNotice = 'icons/icon_notice.png';
-  static const String iconNoticeArrowBlue = 'icons/icon_notice_arrow_blue.png';
-  static const String iconNoticeArrowGreen =
-      'icons/icon_notice_arrow_green.png';
-  static const String iconNoticeArrowOrange =
-      'icons/icon_notice_arrow_orange.png';
-  static const String iconNoticeArrowRed = 'icons/icon_notice_arrow_red.png';
-  static const String iconNoticeCloseBlue = 'icons/icon_notice_close_blue.png';
-  static const String iconNoticeCloseGreen =
-      'icons/icon_notice_close_green.png';
-  static const String iconNoticeCloseOrange =
-      'icons/icon_notice_close_orange.png';
-  static const String iconNoticeCloseRed = 'icons/icon_notice_close_red.png';
-  static const String iconNoticeFail = 'icons/icon_notice_fail.png';
-  static const String iconNoticeRunning = 'icons/icon_notice_running.png';
-  static const String iconNoticeSucceed = 'icons/icon_notice_succeed.png';
-  static const String iconNoticeWarning = 'icons/icon_notice_warning.png';
+  // static const String iconNotice = 'icons/icon_notice.png';
+  // static const String iconNoticeArrowBlue = 'icons/icon_notice_arrow_blue.png';
+  // static const String iconNoticeArrowGreen =
+  //     'icons/icon_notice_arrow_green.png';
+  // static const String iconNoticeArrowOrange =
+  //     'icons/icon_notice_arrow_orange.png';
+  // static const String iconNoticeArrowRed = 'icons/icon_notice_arrow_red.png';
+  // static const String iconNoticeCloseBlue = 'icons/icon_notice_close_blue.png';
+  // static const String iconNoticeCloseGreen =
+  //     'icons/icon_notice_close_green.png';
+  // static const String iconNoticeCloseOrange =
+  //     'icons/icon_notice_close_orange.png';
+  // static const String iconNoticeCloseRed = 'icons/icon_notice_close_red.png';
+  // static const String iconNoticeFail = 'icons/icon_notice_fail.png';
+  // static const String iconNoticeRunning = 'icons/icon_notice_running.png';
+  // static const String iconNoticeSucceed = 'icons/icon_notice_succeed.png';
+  // static const String iconNoticeWarning = 'icons/icon_notice_warning.png';
 
   static const String iconOperationOtherRight =
       'icons/icon_operation_line_right.png';
@@ -183,9 +183,9 @@ class BaseAsset {
   // static const String iconQuestion = "icons/icon_question.png";
 
   /// 录入项icon
-  static const String iconAddDisable = "icons/icon_add_disable.png";
-  static const String iconAddEnable = "icons/icon_add_enable.png";
+  // static const String iconAddDisable = "icons/icon_add_disable.png";
+  // static const String iconAddEnable = "icons/icon_add_enable.png";
 
-  static const String iconMinusDisable = "icons/icon_minus_disable.png";
-  static const String iconMinusEnable = "icons/icon_minus_enable.png";
+  // static const String iconMinusDisable = "icons/icon_minus_disable.png";
+  // static const String iconMinusEnable = "icons/icon_minus_enable.png";
 }
