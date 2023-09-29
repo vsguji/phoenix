@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 20:43:58
+ * @LastEditTime: 2023-09-29 21:09:39
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -17,7 +17,7 @@ class BaseAsset {
 
   static const String refreshArrowUp = "images/refresh_arrow_up.png";
   static const String refreshArrowDown = "images/refresh_arrow_down.png";
-  static const String iconSelectionReset = "images/icon_selection_reset.png";
+  // static const String iconSelectionReset = "images/icon_selection_reset.png";
   // static const String iconSingleSelected = "images/icon_single_selected.png";
   // static const String iconMultiSelected = "images/icon_multi_selected.png";
   // static const String iconUnSelect = "images/icon_unselect.png";
@@ -32,14 +32,14 @@ class BaseAsset {
   static const String iconBottomPickerRightTopBg =
       "images/icon_bottom_picker_right_top_bg.png";
 
-  static const String iconArrowUpSelect = "images/icon_arrow_up_selected.png";
+  // static const String iconArrowUpSelect = "images/icon_arrow_up_selected.png";
   static const String iconRefresh = "assets/images/icon_refresh.png";
-  static const String iconArrowDownSelect =
-      "images/icon_arrow_down_selected.png";
-  static const String iconArrowDownUnSelect =
-      "images/icon_arrow_down_unselected.png";
+  // static const String iconArrowDownSelect =
+  //     "images/icon_arrow_down_selected.png";
+  // static const String iconArrowDownUnSelect =
+  //     "images/icon_arrow_down_unselected.png";
   static const String iconArrowRight = "icons/icon_right_arrow_1.png";
-  static const String selectCheckedStatus = "images/select_checked_status.png";
+  // static const String selectCheckedStatus = "images/select_checked_status.png";
   static const String selectNormalStatus = "icons/normol_border.png";
   static const String iconSelectedUpTriangle =
       "icons/icon_selcted_triangle.png";
@@ -49,12 +49,12 @@ class BaseAsset {
   // static const String iconRightArrow = 'icons/icon_right_arrow.png';
   // static const String iconBackWhite = 'assets/icons/icon_back_white.png';
   // static const String iconBackBlack = 'assets/icons/icon_back_black.png';
-  static const String iconStep2 = 'icons/icon_step_2.png';
-  static const String iconStep3 = 'icons/icon_step_3.png';
-  static const String iconStep4 = 'icons/icon_step_4.png';
-  static const String iconStep5 = 'icons/icon_step_5.png';
-  static const String iconStepDoing = 'icons/icon_step_doing.png';
-  static const String iconStepCompleted = 'icons/icon_step_completed.png';
+  // static const String iconStep2 = 'icons/icon_step_2.png';
+  // static const String iconStep3 = 'icons/icon_step_3.png';
+  // static const String iconStep4 = 'icons/icon_step_4.png';
+  // static const String iconStep5 = 'icons/icon_step_5.png';
+  // static const String iconStepDoing = 'icons/icon_step_doing.png';
+  // static const String iconStepCompleted = 'icons/icon_step_completed.png';
 
   static const String iconDeleteText = 'icons/ic_delete_grey.png';
   static const String iconSearch = 'icons/ic_search.png';
@@ -67,7 +67,7 @@ class BaseAsset {
   //  'icons/icon_calendar_next_month.png';
 
   // static const String iconUpArrow = 'icons/icon_up_arrow.png';
-  static const String iconDownArrow = 'icons/icon_down_arrow.png';
+  // static const String iconDownArrow = 'icons/icon_down_arrow.png';
   // static const String iconTrashBin = 'icons/icon_trash.png';
   static const String iconStarUnSelect = 'icons/icon_star_unselect.png';
   static const String iconStarSelect = 'icons/icon_star_select.png';
