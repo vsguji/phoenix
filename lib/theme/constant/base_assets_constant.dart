@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:53:25
- * @LastEditTime: 2023-09-29 10:11:04
+ * @LastEditTime: 2023-09-29 10:20:18
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_assets_constant.dart
@@ -46,7 +46,7 @@ class BaseAsset {
   static const String iconUnSelectDownTriangle =
       "icons/icon_unselected_triangle.png";
   static const String iconRequireRed = 'icons/icon_require_red.png';
-  static const String iconRightArrow = 'icons/icon_right_arrow.png';
+  // static const String iconRightArrow = 'icons/icon_right_arrow.png';
   // static const String iconBackWhite = 'assets/icons/icon_back_white.png';
   // static const String iconBackBlack = 'assets/icons/icon_back_black.png';
   static const String iconStep2 = 'icons/icon_step_2.png';
@@ -66,7 +66,7 @@ class BaseAsset {
   //static const String iconCalendarNextMonth =
   //  'icons/icon_calendar_next_month.png';
 
-  static const String iconUpArrow = 'icons/icon_up_arrow.png';
+  // static const String iconUpArrow = 'icons/icon_up_arrow.png';
   static const String iconDownArrow = 'icons/icon_down_arrow.png';
   // static const String iconTrashBin = 'icons/icon_trash.png';
   static const String iconStarUnSelect = 'icons/icon_star_unselect.png';
@@ -77,8 +77,8 @@ class BaseAsset {
   static const String iconTriangleDown = 'icons/icon_triangle_down.png';
   static const String iconTriangleUp = 'icons/icon_triangle_up.png';
 
-  static const String iconPairInfoQuestion =
-      'icons/icon_pait_info_question.png';
+  // static const String iconPairInfoQuestion =
+  // 'icons/icon_pait_info_question.png';
   static const String iconPickerClose = 'images/icon_guanbi.png';
 
   static const String iconNotice = 'icons/icon_notice.png';
@@ -180,7 +180,7 @@ class BaseAsset {
   //     'assets/images/icon_appraise_good_selected.gif';
   // static const String iconAppraiseSurpriseSelected =
   //     'assets/images/icon_appraise_surprise_selected.gif';
-  static const String iconQuestion = "icons/icon_question.png";
+  // static const String iconQuestion = "icons/icon_question.png";
 
   /// 录入项icon
   static const String iconAddDisable = "icons/icon_add_disable.png";
