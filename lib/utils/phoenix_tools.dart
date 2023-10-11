@@ -15,7 +15,8 @@ class PhoenixTools {
     if (!assetFilePath.startsWith('assets')) {
       assetFilePath = 'assets/$assetFilePath';
     }
-    return getAssetImageWithColor(assetFilePath, commonConfig?.brandPrimary);
+    return getAssetImageWithColor(assetFilePath, commonConfig?.brandPrimary,
+        package: package);
   }
 
   /// 将 icon 根据传入颜色变后返回
