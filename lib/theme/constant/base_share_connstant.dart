@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2023-08-23 09:50:33
- * @LastEditTime: 2023-08-23 09:52:21
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-10-13 10:08:48
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/total/base_share_connstant.dart
  */
@@ -69,11 +69,11 @@ class BaseShareItemConstants {
   static const int shareCustom = 100;
 }
 
-class BrnSelectionConstant {
+class SelectionConstant {
   static const int maxSelectCount = 65535;
 }
 
-class BrnButtonConstant {
+class ButtonConstant {
   /// 默认水平间距
   static const double horizontalPadding = 6;
 
