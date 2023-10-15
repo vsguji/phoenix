@@ -20,13 +20,19 @@ and the Flutter guide for
 -->
 
 # phoenix
+ 
+ phoenix 将做为企业级基础组件,提供项目支持，如下组件：
+ 
+![image](phoenix.png)
+
+注册控件风格：
 
 ```dart
  BaseTotalConfig totalConfig = BaseTotalConfig();
  // 
  BaseInit.register(totalConfig: totalConfig); 
 ```
-phoenix 将做为企业级基础组件,提供项目支持。
+
 
 ## Features
 
