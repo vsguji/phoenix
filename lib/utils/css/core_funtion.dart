@@ -2,7 +2,7 @@
  * @Author: lipeng 1162423147@qq.com
  * @Date: 2023-09-13 20:09:03
  * @LastEditors: lipeng 1162423147@qq.com
- * @LastEditTime: 2023-09-23 18:07:54
+ * @LastEditTime: 2024-02-29 14:34:09
  * @FilePath: /phoenix/lib/utils/css/core_funtion.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -47,7 +47,7 @@ class Convert {
   ///             a开始标签支持的属性：href
   ///           文本标签 去获取style集合的最后一个元素 并应用style样式
   ///           结束标签 则将集合的最后一个元素删除
-  List<TextSpan> convert() {
+  List<TextSpan> convert([Color? linkColor]) {
     // 优先使用外部提供的样式
     final TextStyle style = _defaultStyle ??
         TextStyle(
@@ -103,10 +103,11 @@ class Convert {
               switch (attr.name) {
                 case 'href':
                   textStyle = textStyle.apply(
-                    color: BaseThemeConfig.instance
-                        .getConfig()
-                        .commonConfig
-                        .brandPrimary,
+                    color: linkColor ??
+                        BaseThemeConfig.instance
+                            .getConfig()
+                            .commonConfig
+                            .brandPrimary,
                   );
                   tag.linkUrl = attr.value;
                   break;
